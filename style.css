@@ -33,10 +33,9 @@
 	clear: both;
 }
 
-
 .div1 {
 	float: left;
-	width: 25%;
+	width: /*25%/33%/50%/100%*/;
 	/*Wybor koloru tla strony*/
 	background-color: violet;
 	/*Wybor grafiki na tlo strony*/
@@ -66,7 +65,7 @@
 
 .div2 {
 	float: left;
-	width: 25%;
+	width: /*25%/33%/50%/100%*/;
 	/*Wybor koloru tla strony*/
 	background-color: red;
 	/*Wybor grafiki na tlo strony*/
@@ -96,7 +95,7 @@
 
 .div3 {
 	float: left;
-	width: 25%;
+	width: /*25%/33%/50%/100%*/;
 	/*Wybor koloru tla strony*/
 	background-color: orange;
 	/*Wybor grafiki na tlo strony*/
@@ -126,7 +125,7 @@
 
 .div4 {
 	float: left;
-	width: 25%;
+	width: /*25%/33%/50%/100%*/;
 	/*Wybor koloru tla strony*/
 	background-color: green;
 	/*Wybor grafiki na tlo strony*/
