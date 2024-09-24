@@ -159,12 +159,22 @@
 	/*Wybor koloru tla strony*/
 	background-color: gray;
 	/*Wybor grafiki na tlo strony*/
-	background-image: url("pies.jpeg");
-
+	background-image: url("nazwa pliku");
+	/*Wyswietlanie grafiki: powtarzanie w pionie*/
+	background-repeat: repeat-y;
+	background-position: center;
 	/*Wyswietlanie grafiki: powtarzanie w poziomie*/
 	background-repeat: repeat-x;
 	background-position: center;
-
+	/*Wyswietlanie grafiki: zablokowanie przewijania*/
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center;
+	/*Wyswietlanie grafiki: rozciagniecie*/
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
 
 	/*ustawianie koloru i rozmiaru czcionki*/
 	font-size: 14px;
