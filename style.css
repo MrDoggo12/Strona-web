@@ -1,32 +1,173 @@
 .all {
-
+	/*Wybor koloru tla strony*/
+	background-color: gray;
+	/*Wybor grafiki na tlo strony*/
+	background-image: url("nazwa pliku");
+	/*Wyswietlanie grafiki: powtarzanie w pionie*/
+	background-repeat: repeat-y;
+	background-position: center;
+	/*Wyswietlanie grafiki: powtarzanie w poziomie*/
+	background-repeat: repeat-x;
+	background-position: center;
+	/*Wyswietlanie grafiki: zablokowanie przewijania*/
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center;
+	/*Wyswietlanie grafiki: rozciagniecie*/
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
 }
 
 .heading {
-
+	/*ustawianie koloru i rozmiaru czcionki*/
+	font-size: 14px;
+	color: black;	
+	text-align: center;
 }
 
 .main:after {
-
+	content: "";
+	display: table;
+	clear: both;
 }
 
 
 .div1 {
-float: left
+	float: left;
+	width: 25%;
+	/*Wybor koloru tla strony*/
+	background-color: violet;
+	/*Wybor grafiki na tlo strony*/
+	background-image: url("nazwa pliku");
+	/*Wyswietlanie grafiki: powtarzanie w pionie*/
+	background-repeat: repeat-y;
+	background-position: center;
+	/*Wyswietlanie grafiki: powtarzanie w poziomie*/
+	background-repeat: repeat-x;
+	background-position: center;
+	/*Wyswietlanie grafiki: zablokowanie przewijania*/
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center;
+	/*Wyswietlanie grafiki: rozciagniecie*/
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	/*ustawianie koloru i rozmiaru czcionki*/
+	font-size: 14px;
+	color: black;
+	text-align: center;
+	/*Ustawianie zaokraglenia kolumny*/
+	border-radius: 10px;
 }
 
 .div2 {
-float: left
+	float: left;
+	width: 25%;
+	/*Wybor koloru tla strony*/
+	background-color: red;
+	/*Wybor grafiki na tlo strony*/
+	background-image: url("nazwa pliku");
+	/*Wyswietlanie grafiki: powtarzanie w pionie*/
+	background-repeat: repeat-y;
+	background-position: center;
+	/*Wyswietlanie grafiki: powtarzanie w poziomie*/
+	background-repeat: repeat-x;
+	background-position: center;
+	/*Wyswietlanie grafiki: zablokowanie przewijania*/
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center;
+	/*Wyswietlanie grafiki: rozciagniecie*/
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	/*ustawianie koloru i rozmiaru czcionki*/
+	font-size: 14px;
+	color: black;
+	text-align: center;
+	/*Ustawianie zaokraglenia kolumny*/
+	border-radius: 10px;
 }
 
 .div3 {
-float: left
+	float: left;
+	width: 25%;
+	/*Wybor koloru tla strony*/
+	background-color: orange;
+	/*Wybor grafiki na tlo strony*/
+	background-image: url("nazwa pliku");
+	/*Wyswietlanie grafiki: powtarzanie w pionie*/
+	background-repeat: repeat-y;
+	background-position: center;
+	/*Wyswietlanie grafiki: powtarzanie w poziomie*/
+	background-repeat: repeat-x;
+	background-position: center;
+	/*Wyswietlanie grafiki: zablokowanie przewijania*/
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center;
+	/*Wyswietlanie grafiki: rozciagniecie*/
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	/*ustawianie koloru i rozmiaru czcionki*/
+	font-size: 14px;
+	color: black;
+	text-align: center;
+	/*Ustawianie zaokraglenia kolumny*/
+	border-radius: 10px;
 }
 
 .div4 {
-float: left
+	float: left;
+	width: 25%;
+	/*Wybor koloru tla strony*/
+	background-color: green;
+	/*Wybor grafiki na tlo strony*/
+	background-image: url("nazwa pliku");
+	/*Wyswietlanie grafiki: powtarzanie w pionie*/
+	background-repeat: repeat-y;
+	background-position: center;
+	/*Wyswietlanie grafiki: powtarzanie w poziomie*/
+	background-repeat: repeat-x;
+	background-position: center;
+	/*Wyswietlanie grafiki: zablokowanie przewijania*/
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center;
+	/*Wyswietlanie grafiki: rozciagniecie*/
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	/*ustawianie koloru i rozmiaru czcionki*/
+	font-size: 14px;
+	color: black;
+	text-align: center;
+	/*Ustawianie zaokraglenia kolumny*/
+	border-radius: 10px;
 }
 
 .footer { 
+	height: 400px;
+	/*Wybor koloru tla strony*/
+	background-color: gray;
+	/*Wybor grafiki na tlo strony*/
+	background-image: url("pies.jpeg");
 
+	/*Wyswietlanie grafiki: powtarzanie w poziomie*/
+	background-repeat: repeat-x;
+	background-position: center;
+
+
+	/*ustawianie koloru i rozmiaru czcionki*/
+	font-size: 14px;
+	color: black;
+	text-align: center;
 }
